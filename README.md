@@ -5,8 +5,6 @@ This project contains MATLAB codes for the following manuscript.
 **Topology-free Epidemic Control through Resource Allocation Based on Historical Infection Information.** Zhen Wang, Shuqi Wang, Chijun Zhang, Mingda Xu, Qi Tan, Jianbo Wang, Petter Holme, Chao Gao, Zhanwei Du (2024). (in preparation).
 
 We propose a data-driven topological-free resource allocation strategy based on individual historical infection information in electronic health records.  
-* '1network' consists of the model parameters and simulation networks.
-* '2beta' means how to calculate the transmission rate.
-* '3EHR' generates the historical infection information from EHR.
-* '4rank' contains the priority order given by different strategies.
-* '5infection' is the main simulation process.
+* 'Data' consists of the model parameters, simulation networks, and prioritization of populations from multiple resource allocation strategies.
+* 'EHR' generates the historical infection information from EHR.
+* 'MainSimulations' contains the main simulation process. You can select a network and a reproduction number setting and run any main_XX.m to indicate simulating different resource allocation strategies.
